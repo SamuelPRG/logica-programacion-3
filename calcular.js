@@ -16,5 +16,6 @@ function factorial() {
 
     const resultado = calculateFactorial(numero);
     
+
     document.getElementById('resultado').innerHTML = resultado;
 }
