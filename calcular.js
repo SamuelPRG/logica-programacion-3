@@ -4,7 +4,7 @@ function factorial() {
 
     function calculateFactorial(number) {
         if (number < 0 || !Number.isInteger(number)) {
-            return "Input must be a non-negative integer";
+            return "Ingrese un numero positivo";
         }
         
         let result = 1;
